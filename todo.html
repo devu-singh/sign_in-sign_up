@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+
+        </title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="todo.css">
+    </head>
+    <body>
+        <div id="container">
+            <div id="main-container">
+
+            <div id="tittle-box">
+                <h1 id="heading">TODO APP</h1>
+            </div>
+            <div id="form-container">
+                <form action="" method="get">
+                    <div id="task-container" class="flex-dis">
+                        <span class="container-heading">
+                           DESCRIPTION
+                        </span>
+                        <textarea name="task" placeholder="&nbsp;What do you want to do?" required></textarea>
+                    </div>
+                    <div id="select-container" class="flex-dis">
+                        <span class="container-heading">
+                             CATEGORY
+                          </span>
+                        <select name="category" id="drop-down" required> 
+                            <option value="">Choose category</option>
+                            <option value="Personal">Personal</option>
+                            <option value="Work">Work</option>
+                            <option value="School">School</option>
+                            <option value="Cleaning">Cleaning</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                    <div id="date-container" class="flex-dis">
+                        <span class="container-heading">
+                                 DUE DATE
+                              </span>
+                        <input id="date-input" type="date" name="date">
+                    </div>
+                
+
+                    <div id="btn-container" >
+                        <button class="add-btn" type="submit"><i class="fas fa-plus"></i> <span id="button-text"> ADD TASK</span></button>
+                    </div>
+                </form>
+
+            </div>
+
+            </div>
+        </div>
+    </body>
+</html>
